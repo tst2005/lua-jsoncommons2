@@ -27,8 +27,8 @@ I planned to mainly use the :
 
 ```
 local common = require("jsoncommons2")
-local class = common.class
-local instance = common.instance
+local encode = common.encode
+local decode = common.decode
 ```
 
 By default the CJSON implementation was used.
